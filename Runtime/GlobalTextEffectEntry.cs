@@ -16,7 +16,8 @@ namespace EasyTextEffects
 
         public TriggerWhen triggerWhen;
         public TextEffectInstance effect;
-
+        
+        [HideInInspector]
         public UnityEvent onEffectCompleted = new UnityEvent();
         
         
